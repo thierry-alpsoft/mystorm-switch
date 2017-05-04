@@ -10,6 +10,7 @@ mystrom-switch is a library that helps to turn on/off the myStorm wifi switch
 ### Power On
 
 ```
+var MyStromIp = "192.168.1.69";
 var MyStrom = require('mystrom-switch');
 var plug = new MyStrom(MyStromIp);
 
@@ -27,6 +28,7 @@ plug.powerOn(function (result, err) {
 ### Power Off
 
 ```
+var MyStromIp = "192.168.1.69";
 var MyStrom = require('mystrom-switch');
 var plug = new MyStrom(MyStromIp);
 
@@ -34,7 +36,7 @@ var plug = new MyStrom(MyStromIp);
 plug.powerOff(function (result, err) {
     if (err) console.log(err);
 
-	// If the switch has been well powered on
+	// If the switch has been well powered off
     if (result === true) {
 		console.log("ok, it's on");
     }
@@ -44,6 +46,7 @@ plug.powerOff(function (result, err) {
 ### Power Toggle
 
 ```
+var MyStromIp = "192.168.1.69";
 var MyStrom = require('mystrom-switch');
 var plug = new MyStrom(MyStromIp);
 
@@ -51,7 +54,6 @@ var plug = new MyStrom(MyStromIp);
 plug.toggle(function (result, err) {
     if (err) console.log(err);
 
-	// If the switch has been well powered on
     if (result === true) {
 		console.log("ok, it's on");
     }
@@ -61,6 +63,7 @@ plug.toggle(function (result, err) {
 ### Get Values
 
 ```
+var MyStromIp = "192.168.1.69";
 var MyStrom = require('mystrom-switch');
 var plug = new MyStrom(MyStromIp);
 
