@@ -1,0 +1,22 @@
+{
+  "name": "mystrom-switch",
+  "version": "1.0.1",
+  "description": "mystrom-switch is a library that helps to turn on/off the myStorm wifi switch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mystrom",
+    "wifi",
+    "switch",
+    "automation"
+  ],
+  "author": "Thierry Rapillard <rapthi@gmail.com>",
+  "license": "ISC",
+  "repository":
+  {
+	"type": "git",
+	"url": "https://github.com/thierry-alpsoft/mystorm-switch.git"
+  }
+}
