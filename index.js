@@ -51,7 +51,7 @@ myStromSwitch.prototype.toggle = function(callback) {
 myStromSwitch.prototype.getValues = function(callback) {
     callback = callback || function() {};
 
-    const plugUrl = "http://" + this.ip + "/toggle";
+    const plugUrl = "http://" + this.ip + "/report";
     Http.get(plugUrl,
         (res) => {
             res.setEncoding('utf8');
