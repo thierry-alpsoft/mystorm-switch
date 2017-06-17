@@ -1,6 +1,6 @@
 {
   "name": "mystrom-switch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mystrom-switch is a library that helps to turn on/off the myStorm wifi switch",
   "main": "index.js",
   "scripts": {
